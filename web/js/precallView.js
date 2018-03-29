@@ -172,9 +172,9 @@
     var TEST_DURATION_MAX = 200; // 20 seconds
     var meterLevel = document.getElementById('precall-test-meter-level');
     setSwitchStatus(true, 'Video', 'roomView:initialVideoSwitch');
-    document.querySelector('#test-status label').innerText = 'Testing audio / video quality…';
+    document.querySelector('#test-status label').innerText = 'Audio / Video';
     meterLevel.style.width = 0;
-    meterLevel.style['animation-play-state'] = 'running';
+    meterLevel.style['animation-play-state'] = 'rodando';
     var preCallTestProgress = 0;
     testMeterInterval = setInterval(function () {
       preCallTestProgress++;
