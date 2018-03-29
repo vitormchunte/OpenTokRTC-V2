@@ -35,7 +35,7 @@ describe('PrecallView', () => {
     it('should set the room name', () => {
       PrecallView.setRoomName('roomName');
       expect(document.querySelector('.user-name-modal button .room-name')
-        .textContent).to.equal('Join roomName');
+        .textContent).to.equal('Entrar roomName');
       expect(document.getElementById('name-heading').textContent).to.equal('roomName');
     });
   });
