@@ -82,8 +82,8 @@
         </div>
         <%   if(enableArchiving) { %>
         <div id="toggleArchiving" disabled>
-          <a id="startArchiving" class="btn btn-blue btn-padding">Record</a>
-          <a id="stopArchiving" class="btn btn-blue btn-padding duration">Stop Recording</a>
+          <a id="startArchiving" class="btn btn-blue btn-padding">Gravar</a>
+          <a id="stopArchiving" class="btn btn-blue btn-padding duration">Parar Gravação</a>
         </div>
         <%      if(enableArchiveManager) { %>
         <div id="manageRecordings">
@@ -113,46 +113,46 @@
           <button id="endCall" disabled>
             <i data-icon="end_call"></i>
           </button>
-          <p>Leave Call</p>
+          <p>Finalizar Chamada</p>
         </div>
         <div>
           <button id="toggle-publisher-video" class="selected" disabled>
             <i data-icon="no_video" data-event-name="roomView:buttonClick" data-action="video" data-stream-id="publisher" data-stream-type="publisher"></i>
           </button>
-          <p>Your Video</p>
+          <p>Video</p>
         </div>
         <div>
           <button id="toggle-publisher-audio" disabled>
             <i data-icon="mic-muted"></i>
           </button>
-          <p>Your Mic</p>
+          <p>Mic</p>
         </div>
         <div id="addToCall-container">
           <button id="addToCall">
             <i data-icon="add"></i>
           </button>
-          <p>Invite</p>
+          <p>Convite</p>
         </div>
         <% if (enableScreensharing) { %>
         <div id="screen-share-container">
           <button id="screen-share" disabled>
             <i data-icon="screenshare"></i>
           </button>
-          <p>Share Screen</p>
+          <p>Compartilhar Tela</p>
         </div>
         <% if (enableAnnotation) { %>
         <div id="annotate-button-container">
           <button id="annotate" disabled>
             <i data-icon="annotate"></i>
           </button>
-          <p>Annotate</p>
+          <p>Anotação</p>
         </div>
         <% } } %>
         <div>
           <button id="message-btn" disabled>
             <i data-icon="message"></i>
           </button>
-          <p>Message
+          <p>Mensagem
             <span id="unreadMsg">(<span id="unreadCount">0</span>)</span>
           </p>
         </div>
